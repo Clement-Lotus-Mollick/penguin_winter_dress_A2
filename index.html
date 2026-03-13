@@ -1,11 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/images/model.png" type="image/x-icon">
+    <title>Penguin Shop Winter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
-<body>
-    
+
+<body class="font-['Roboto'] bg-white text-gray-700">
+
+    <header class="bg-[#FFFBF0]">
+        <div class="max-w-[1400px] mx-auto px-4">
+            <nav class="flex items-center justify-between py-6">
+                <img src="./assets/icons/logo.png" class="w-[200px]" alt="Logo">
+                <ul class="hidden md:flex gap-8 font-medium">
+                    <li class="hover:text-black cursor-pointer">Home</li>
+                    <li class="hover:text-black cursor-pointer">Products</li>
+                    <li class="hover:text-black cursor-pointer">About Us</li>
+                    <li class="hover:text-black cursor-pointer">Contact</li>
+                </ul>
+                <div class="md:hidden text-2xl cursor-pointer">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <div class="flex flex-col md:flex-row items-center justify-between py-12">
+                <div class="space-y-4 max-w-[520px]">
+                    <h1 class="text-[50px] md:text-[70px] font-bold leading-[65px] text-[#FABE4C] font-['Bebas_Neue']">
+                        BE THE PENGUINS
+                    </h1>
+                    <h1 class="text-[50px] md:text-[70px] font-bold leading-[65px] text-[#363958] font-['Bebas_Neue']">
+                        OF WINTER
+                    </h1>
+                    <p class="text-gray-600">
+                        Lorem Ipsum is simply dummy text of the printing 
+and typesetting industry.
+                    </p>
+                    <button class="bg-gradient-to-r from-lime-500 to-lime-600 hover:from-lime-600 hover:to-lime-700 text-white px-6 py-3 rounded-lg font-semibold flex items-center gap-2 transition-all duration-300">
+                        <i class="fa-solid fa-cart-shopping"></i> BUY NOW
+                    </button>
+                </div>
+                <div>
+                    <img src="./assets/images/model.png" class="max-w-[420px] w-full" alt="Model wearing Penguin Fashion winter jacket">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="max-w-[1400px] mx-auto px-4 py-16">
+        <h2 class="text-[35px] md:text-[40px] font-semibold text-[#363958] mb-10 font-['Bebas_Neue']">WOMEN JACKETS</h2>
+        <div class="grid md:grid-cols-3 gap-10">
+            <div class="bg-white shadow-md rounded-xl p-5 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-gray-100 rounded-xl p-6">
+                    <img src="./assets/images/jacket-1.png" class="mx-auto h-[260px]" alt="Yellow Coat Jacket for Women" loading="lazy">
+                </div>
+                <h4 class="text-xl font-bold mt-4">Yellow Coat Jacket</h4>
+                <p class="text-gray-500 text-sm mt-2">Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.</p>
+                <div class="flex items-center justify-between mt-4">
+                    <span class="text-[#FABE4C] text-2xl font-bold">$356</span>
+                    <button class="bg-gradient-to-r from-lime-500 to-lime-600 hover:from-lime-600 hover:to-lime-700 text-white px-5 py-2 rounded-lg flex items-center gap-2 transition-all duration-300">
+                        <i class="fa-solid fa-cart-shopping"></i> Buy
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-xl p-5 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-gray-100 rounded-xl p-6">
+                    <img src="./assets/images/jacket-2.png" class="mx-auto h-[260px]" alt="Ladies Jacket" loading="lazy">
+                </div>
+                <h4 class="text-xl font-bold mt-4">Ladies Jacket</h4>
+                <p class="text-gray-500 text-sm mt-2">Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.</p>
+                <div class="flex items-center justify-between mt-4">
+                    <span class="text-[#FABE4C] text-2xl font-bold">$356</span>
+                    <button class="bg-gradient-to-r from-lime-500 to-lime-600 hover:from-lime-600 hover:to-lime-700 text-white px-5 py-2 rounded-lg flex items-center gap-2 transition-all duration-300">
+                        <i class="fa-solid fa-cart-shopping"></i> Buy
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-xl p-5 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-gray-100 rounded-xl p-6">
+                    <img src="./assets/images/jacket-3.png" class="mx-auto h-[260px]" alt="Woman Leather Jacket" loading="lazy">
+                </div>
+                <h4 class="text-xl font-bold mt-4">Woman Leather Jacket</h4>
+                <p class="text-gray-500 text-sm mt-2">Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.</p>
+                <div class="flex items-center justify-between mt-4">
+                    <span class="text-[#FABE4C] text-2xl font-bold">$356</span>
+                    <button class="bg-gradient-to-r from-lime-500 to-lime-600 hover:from-lime-600 hover:to-lime-700 text-white px-5 py-2 rounded-lg flex items-center gap-2 transition-all duration-300">
+                        <i class="fa-solid fa-cart-shopping"></i> Buy
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-[1400px] mx-auto px-4 py-16">
+        <h2 class="text-[35px] md:text-[40px] font-semibold text-[#363958] mb-10 font-['Bebas_Neue']">MEN JACKETS</h2>
+        <div class="grid md:grid-cols-3 gap-10">
+            <div class="bg-white shadow-md rounded-xl p-5 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-gray-100 rounded-xl p-6">
+                    <img src="./assets/images/jacket-4.png" class="mx-auto h-[260px]" alt="Snowboard Jacket Mens" loading="lazy">
+                </div>
+                <h4 class="text-xl font-bold mt-4">Snowboard Jacket Mens</h4>
+                <p class="text-gray-500 text-sm mt-2">Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.</p>
+                <div class="flex items-center justify-between mt-4">
+                    <span class="text-[#FABE4C] text-2xl font-bold">$356</span>
+                    <button class="bg-gradient-to-r from-lime-500 to-lime-600 hover:from-lime-600 hover:to-lime-700 text-white px-5 py-2 rounded-lg flex items-center gap-2 transition-all duration-300">
+                        <i class="fa-solid fa-cart-shopping"></i> Buy
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-xl p-5 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-gray-100 rounded-xl p-6">
+                    <img src="./assets/images/jacket-5.png" class="mx-auto h-[260px]" alt="Man Leather Jackets" loading="lazy">
+                </div>
+                <h4 class="text-xl font-bold mt-4">Man Leather Jackets</h4>
+                <p class="text-gray-500 text-sm mt-2">Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.</p>
+                <div class="flex items-center justify-between mt-4">
+                    <span class="text-[#FABE4C] text-2xl font-bold">$356</span>
+                    <button class="bg-gradient-to-r from-lime-500 to-lime-600 hover:from-lime-600 hover:to-lime-700 text-white px-5 py-2 rounded-lg flex items-center gap-2 transition-all duration-300">
+                        <i class="fa-solid fa-cart-shopping"></i> Buy
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-xl p-5 hover:shadow-xl transition-shadow duration-300">
+                <div class="bg-gray-100 rounded-xl p-6">
+                    <img src="./assets/images/jacket-6.png" class="mx-auto h-[260px]" alt="Man Casual Jackets" loading="lazy">
+                </div>
+                <h4 class="text-xl font-bold mt-4">Man Casual Jackets</h4>
+                <p class="text-gray-500 text-sm mt-2">Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.</p>
+                <div class="flex items-center justify-between mt-4">
+                    <span class="text-[#FABE4C] text-2xl font-bold">$356</span>
+                    <button class="bg-gradient-to-r from-lime-500 to-lime-600 hover:from-lime-600 hover:to-lime-700 text-white px-5 py-2 rounded-lg flex items-center gap-2 transition-all duration-300">
+                        <i class="fa-solid fa-cart-shopping"></i> Buy
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-[1400px] mx-auto px-4 py-16">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <div class="flex gap-4 shadow-md p-4 rounded-xl hover:shadow-xl transition-shadow duration-300">
+                    <img src="./assets/icons/house.png" class="w-[70px]" alt="Perfect Fit Icon">
+                    <div>
+                        <h4 class="font-bold text-lg">Find the Perfect Fit</h4>
+                        <p class="text-gray-500 text-sm">Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 shadow-md p-4 rounded-xl hover:shadow-xl transition-shadow duration-300">
+                    <img src="./assets/icons/box.png" class="w-[70px]" alt="Free Exchange Icon">
+                    <div>
+                        <h4 class="font-bold text-lg">Free Exchanges</h4>
+                        <p class="text-gray-500 text-sm">Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 shadow-md p-4 rounded-xl hover:shadow-xl transition-shadow duration-300">
+                    <img src="./assets/icons/question.png" class="w-[70px]" alt="Contact Seller Icon">
+                    <div>
+                        <h4 class="font-bold text-lg">Contact Our Seller</h4>
+                        <p class="text-gray-500 text-sm">Lorem Ipsum is simply dummy text of the 
+printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/images/shopping.png" class="max-w-[500px] mx-auto w-full" alt="Shopping Illustration" loading="lazy">
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
